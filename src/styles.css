@@ -87,6 +87,22 @@ section h1 {
   font-family: var(--secondary-font);
 }
 
+.projects-button {
+  color: #106b44;
+  background: white;
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.projects-button:hover {
+  color: var(--secondary-color);
+  background: #106b44;
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+}
+
 section li {
   display: inline-block;
   background: #106b44;
@@ -131,5 +147,9 @@ section li {
 
   .section-skillset {
     padding: 20px;
+  }
+  .projects-button {
+    display: block;
+    margin: 15px 60px;
   }
 }
