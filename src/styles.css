@@ -1,0 +1,100 @@
+:root {
+  --primary-color: white;
+  --secondary-color: #f7ff72;
+  --primary-font: "Poppins";
+  --secondary-font: "Playfair Display";
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  font-family: var(--primary-font);
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+}
+
+.active {
+  color: var(--secondary-color) !important;
+}
+
+.logo {
+  width: 100px;
+}
+
+body .hero {
+  padding: 0 60px;
+  margin: 0;
+}
+
+.hero .hero-name {
+  padding: 20px;
+}
+
+.hero h1,
+h3,
+h4,
+h5 {
+  padding: 0;
+}
+
+.hero h1 {
+  font-family: var(--secondary-font);
+  font-size: 45px;
+  color: var(--secondary-color);
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.mobile-illustrator {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.btn-outline-warning {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.btn-outline-warning:hover {
+  background: var(--secondary-color);
+  color: #106b44;
+}
+
+@media (max-width: 980px) {
+  body .hero {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .hero .hero-name {
+    margin-top: 5px !important;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero h3,
+  h4,
+  h5 {
+    font-size: small;
+  }
+  .hero p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+}
