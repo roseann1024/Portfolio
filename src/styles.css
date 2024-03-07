@@ -131,6 +131,11 @@ section li {
   box-shadow: var(--box-shadow);
 }
 
+.project-container {
+  font-size: 14px;
+  text-align: center;
+}
+
 footer {
   font-size: 12px;
   font-weight: 300;
