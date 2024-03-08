@@ -25,6 +25,7 @@ nav {
 
 .active {
   color: var(--secondary-color) !important;
+  font-weight: 700;
 }
 
 .logo {
@@ -82,7 +83,7 @@ section {
   box-shadow: var(--box-shadow);
 }
 
-section h1 {
+h1 {
   font-weight: 900;
   font-family: var(--secondary-font);
 }
@@ -111,6 +112,19 @@ section li {
   padding: 5px 10px;
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
+  box-shadow: var(--box-shadow);
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  font-style: italic;
+}
+
+li a:visited {
+  color: var(--secondary-color);
 }
 
 .section-skillset {
