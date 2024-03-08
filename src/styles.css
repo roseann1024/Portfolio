@@ -79,6 +79,7 @@ section {
   background: white;
   color: #106b44;
   border-radius: 30px;
+  box-shadow: var(--box-shadow);
 }
 
 section h1 {
@@ -195,5 +196,17 @@ footer a:hover {
   .projects-button {
     display: block;
     margin: 15px 60px;
+  }
+
+  .project-container {
+    font-size: 12px;
+    padding: 5px !important;
+    padding-bottom: 20px !important;
+  }
+
+  section .contact {
+    text-align: center !important;
+    display: block !important;
+    margin: 0 auto !important;
   }
 }
