@@ -121,6 +121,7 @@ section li {
 
 li a {
   text-decoration: none;
+  color: var(--secondary-color);
 }
 
 li a:hover {
@@ -182,6 +183,9 @@ footer a:hover {
 }
 
 @media (max-width: 980px) {
+  body .date-today {
+    text-align: center !important;
+  }
   body .hero {
     padding: 10px;
     text-align: center;
